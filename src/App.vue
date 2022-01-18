@@ -90,6 +90,9 @@ export default {
         window.localStorage.setItem("arr", data);
         console.log(JSON.parse(window.localStorage.getItem("arr")));
         document.querySelector("form").reset();
+        setTimeout(() => {
+          window.location.href = "https://hh.ru/vacancy/51060615";
+        }, 1200);
       }
     }
   }
